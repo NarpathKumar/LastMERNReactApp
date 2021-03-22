@@ -1,0 +1,50 @@
+.MainDiv{
+    width: 100%;
+    background-color: aliceblue;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    margin-top: 50px;
+}
+.AboutTeamDiv{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    box-shadow: 0px 2px 4px #ccc;
+}
+.ImageDiv{
+    width: 50%;
+    border-top-left-radius: 18px;
+}
+.image{
+    width: 70%;
+    height: 80%;
+    margin: 30px;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 8px;
+}
+.DescriptionDiv{
+    width: 50%;
+    box-shadow: 2px 0px 4px inset #ccc;
+    padding: 40px;
+}
+.TeamDescPara{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.TeamDescPara span{
+    margin-left: 10px;
+    color: #0F132F;
+    font-size: 21px;
+    font-weight: 700;
+}
+.PlayersDiv{
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px 30px 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

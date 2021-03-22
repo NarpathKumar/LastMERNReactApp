@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;  
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 70px 140px;
+    background-color:gainsboro;
+}

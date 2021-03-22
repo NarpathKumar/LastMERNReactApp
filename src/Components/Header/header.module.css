@@ -1,0 +1,210 @@
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 80px;
+    background: #0F132F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.leftHeader{
+    display: flex;
+    align-items: center;
+}
+.leftHeader img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.leftHeader h2{
+    font-style: oblique;
+    margin-left: 20px;
+    color: lightblue
+}
+input{
+    
+}
+.searchButton{
+    background: transparent; 
+    box-shadow: 0px 1px 2px #fff;
+    color: #0F132F;
+    padding: 8px 8px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.addButton{
+    background: transparent; 
+    box-shadow: 0px 1px 2px #fff;
+    color: #0F132F;
+    padding: 8px 8px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.addPlayerOverlay{ 
+    z-index: 9;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exitForm{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+    right: 0;
+    top: -1px;
+    cursor: pointer;
+
+}
+::placeholder{
+    color: #555;
+    font-size: 16px;
+}
+.resetButton{
+    width: 70px;
+    background-color: red;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.rightHeader{
+    display: flex;
+    align-items: center;
+}
+.sessCodeDiv{
+    position: relative;
+    margin-left: 10px;
+}
+.sessCode{
+    width: 30px;
+    height: 30px;
+    background-color: #193A8B;
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.codeDropDown{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    bottom: -100%;
+    right: 30%;
+    background-color: blanchedalmond;
+    color: darkcyan;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.3s all ease;
+}
+.codeDropDown::after{
+    content: '';
+    position: absolute;
+    width: 0px ;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid blanchedalmond;
+    top: -100%;
+    right: 0;
+}
+.dropDownDisplay{
+    display: none;
+}
+.addPlayerForm p{
+    height: 10%;
+}
+.addPlayerForm{
+    z-index: 11;
+    position: fixed;
+    width: 400px;
+    height: 600px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    font-size: 14px;
+    color: #0F132F;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+.RealForm{
+    width: 100%;
+    /* background-color: coral; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.RealForm input{
+    width: 100%;
+    height: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #0F132F;
+    margin: 10px 0px;
+    padding: 16px 6px;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 0px 0px 4px #0F132F;
+    background: transparent;
+}
+::placeholder{
+    font-size: 14px;
+    color: #333
+}
+.RealForm label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.label input{
+    width: 10%;
+    background-color: coral;
+    box-shadow: none;
+}
+input[type="submit"]{
+    width: 30%;
+    height: 50px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}

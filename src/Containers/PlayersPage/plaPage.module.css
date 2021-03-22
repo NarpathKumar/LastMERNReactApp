@@ -1,0 +1,50 @@
+.MainDiv{
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    padding: 20px;
+    background-color: aliceblue;
+
+}
+.ShadowDiv{
+    width: 100%;
+    box-shadow: 0px 0px 4px 0px black;
+    padding: 6px;
+    display: flex;
+    padding: 16px;
+}
+.ShadowDiv div{
+    width: 50%;
+    /* background-color: blanchedalmond; */
+}
+.imageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+.imageDiv img{
+    width: 60%;
+    height: 350px;
+    border-radius: 8px;
+}
+.imageDiv p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.PlayerDescDiv{
+    text-transform: uppercase;
+}
+.DescText{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.DescSpan{
+    font-size: 20px;
+    color: darkolivegreen;
+    font-weight: 700;
+    margin-left: 10px;
+}

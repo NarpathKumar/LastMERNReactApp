@@ -1,0 +1,60 @@
+.TeamCard{
+    width: 21%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+.TeamImageDiv{
+    width: 100%; 
+    height: 200px;
+    position: relative;
+    background-color: white;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.TeamYear{
+    color: blanchedalmond;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.DescriptionDiv{
+    width: 100%;
+    height: 100px;
+    padding: 12px 8px 25px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.TeamName{
+    font-size: 16px;
+    line-height: 20px;
+}
+.Description{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: darkgray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Description span{
+    color: red;
+    font-style: italic;
+}
